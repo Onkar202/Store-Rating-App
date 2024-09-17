@@ -18,11 +18,11 @@ then minimize terminal
 First You need to Add Admin user in this
 To add admin user you can use Thunder CLient or Postman extension of vs code
 in this start a new post request type http://localhost:5000/register and pass a json object with {
-name:"",
-role:"Admin",
-email:"",
-address:""
-password:"",
+"name:"",
+"role":"Admin",
+"email":"",
+"address":"",
+"password":""
 
 }
 after creating a user
