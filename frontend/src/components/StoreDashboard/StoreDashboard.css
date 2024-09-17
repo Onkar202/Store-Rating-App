@@ -1,0 +1,13 @@
+.dashboard{
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    background-color: whitesmoke;
+    margin: 20px auto;
+    gap: 20px;
+    
+    padding: 50px;
+    font-family: "Poppins";
+    background-color: teal;
+    color: white;
+}
