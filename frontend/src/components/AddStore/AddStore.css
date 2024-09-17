@@ -1,0 +1,59 @@
+.addstore{
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    margin: 30px auto;
+    background: transparent;
+    border-radius: 10px;
+    background-color: #edecec;
+
+}
+.addstore form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 30px;
+    font-family: "Poppins";
+    
+}
+
+.group{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 400px;
+
+}
+
+.group input{
+   border: 0;
+   border-radius: 10px;
+   height: 30px;
+   padding-left: 10px;
+}
+
+.group textarea{
+   border: 0;
+   border-radius: 10px;
+   padding-left: 10px;
+}
+
+.addstore form button{
+    border: 0;
+    height: 30px;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    font-family: "Poppins";
+    cursor: pointer;
+    width: 300px;
+    margin: 0 auto;
+    background-color: teal;
+    color: white;
+}
+.addstore form button:hover{
+    background-color: rgb(9, 70, 70);
+}
+
+.message{
+    text-align: center;
+}

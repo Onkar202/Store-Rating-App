@@ -1,0 +1,14 @@
+.store-container #btn{
+    border: 1px solid green;
+    width: 221px;
+    height: 12px;
+    border-radius: 10px;
+    padding-left: 39px;
+    margin-bottom: 10px;
+}
+.store-container input  {
+    width: 114px;
+    border-radius: 10px;
+    padding: 3px;
+    margin-bottom: 4px;
+}

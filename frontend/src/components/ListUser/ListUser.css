@@ -1,0 +1,37 @@
+.user-header{
+    background-color: teal;
+    height: 50px;
+    text-align: center;
+    border: none;
+    color: white;    
+   
+}
+
+.filter-input{
+    padding: 5px 20px;
+   margin-left: 40%;
+   border: 1px solid teal;
+   border-radius: 6px;
+}
+
+
+.user-item img{
+    height: 100px;
+    width: 100px;
+    margin-top: 10px;
+}
+.user-container{
+    margin: 20px auto;
+    font-family: "Poppins";
+
+}
+.user-container table{
+    width: 900px;
+    margin: 0 auto;
+   
+}
+.user-item td{
+    padding-left: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+}

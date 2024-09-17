@@ -1,0 +1,61 @@
+.store-header{
+    background-color: teal;
+    height: 50px;
+    /* text-align: center; */
+    border: none;
+    color: white;    
+   
+}
+
+
+
+.store-item img{
+    height: 100px;
+    width: 100px;
+    margin-top: 10px;
+}
+.store-container{
+    margin: 20px auto;
+    /* text-align: center; */
+    font-family: "Poppins";
+
+}
+.store-container table{
+    width: 900px;
+    margin: 0 auto;
+   
+}
+
+.store-item button{
+    padding: 5px 10px;
+    background: rgb(136, 255, 0);
+    color: white;
+    cursor: pointer;
+    border-radius: 10px;
+    border: 0;
+    font-family: "Poppins";
+}
+.store-item button:hover{
+    background-color: red;
+}
+.store-item td{
+    padding-left: 20px;
+}
+
+.sorting-buttons {
+    
+    max-width: 600px;
+    display: flex;
+    margin: 5px auto;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+}
+.sorting-buttons button{
+    background-color: teal;
+    color: white;
+    font-family: "Poppins";
+    border: 0;
+    padding: 3px;
+    border-radius: 6px;
+}

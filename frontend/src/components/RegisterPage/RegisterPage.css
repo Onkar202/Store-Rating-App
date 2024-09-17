@@ -1,0 +1,56 @@
+.register-container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 300px;
+    margin: 40px auto;
+    background-color: rgb(237, 234, 234);
+    padding: 30px 30px;
+}
+
+.register-container h2{
+    text-align: center;
+}
+
+
+.register-container form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.form-group{
+    display: flex;
+    flex-direction: column;
+    padding: 0 10px;
+}
+
+.form-group input {
+    height: 40px;
+    width: 100%;
+    border: 0;
+    border-radius: 10px;
+    padding-left: 6px;
+}
+
+.form-group button{
+    margin-top: 10px;
+    height: 36px;
+    background: teal;
+    border: 0;
+    color: white;
+    font-size: 1.2rem;
+    border-radius: 20px;
+
+}
+
+.form-group button:hover{
+    background: rgb(7, 84, 84);
+    cursor: pointer;
+}
+
+.register-link{
+    text-align: center;
+}
+
+

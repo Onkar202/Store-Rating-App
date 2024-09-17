@@ -1,0 +1,35 @@
+.all-info-container{
+    background-color: rgb(233, 228, 226);
+    max-width: 900px;
+    margin: 10px auto;
+    padding: 30px;    
+}
+
+.all-info-container div{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.all-info-container div input{
+    margin-left: 18px;
+}
+.all-info-container div table{
+    background-color: teal;
+    padding: 30px;
+    font-family: "Poppins";
+}
+.all-info-container div table td{
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.all-info-container div table .heading{
+    color: black;
+}
+
+.all-info-container div table tbody{
+    color: white;
+}
